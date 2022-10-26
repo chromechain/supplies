@@ -1,0 +1,835 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+  
+
+.header {
+    z-index: 2;
+    position: relative;
+    background: url(img/plane.png);
+    background-size: cover;
+    width: 100%;
+    height: 980px;
+}
+
+
+.nav_shadow {
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    height: 116px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.logologo{
+    width: 40px;
+    height: 40px;
+}
+
+.logo{
+    z-index: 101;
+    float: left;
+    top: 40px;
+    width: 40px;
+    height: 40px;
+
+    background: rgba(255, 255, 255, 0.45);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+}
+
+.nav_background {
+    top: 40px;
+    float: right;
+    width: 1140px;
+    height: 40px;
+
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+
+    background: rgba(255, 255, 255, 0.45);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+}
+
+.navmarg{
+    z-index: 100;
+    position: fixed;
+    top: 40px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    height: 40px;
+    
+}
+
+.nav_name {
+    z-index: 100;
+    
+    position: relative;
+    margin-top: 5px;
+    margin-left: 34px;
+
+    transition: ease 500ms;
+    
+}
+
+.nav_ul {
+    z-index: 100;
+    
+    float: right;
+    list-style-type: none;
+    position: relative;
+    margin-top: -29px;
+    
+}
+
+.nav_ul li {
+    display: inline;
+    margin: 0;
+    margin-right: 35px;
+
+    transition: ease 500ms;
+}
+
+
+.header_title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    line-height: 51px;
+}
+
+.header_title_name {
+    font-weight: 500;
+    font-size: 66px;
+}
+
+.header_title_text {
+    font-size: 44px;
+}
+
+.header_polygon {
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+.services {
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 980px;
+    background: #D9D9D9;
+
+    background: url(img/bg_white.png);
+}
+
+.services_title {
+    font-weight: 500;
+    color: black;
+    font-size: 36px;
+    position: absolute;
+    margin-top: 116px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+}
+
+
+
+.services_ser_aviaru {
+    position: absolute;
+    width: 1200px;
+    height: 278px;
+
+    margin-top: 218px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(3px);
+
+
+    border-radius: 46px;
+}
+
+
+
+.services_ser_aviaru_title {
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 28px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.services_ser_aviaru_text {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+    
+    font-size: 24px;
+    line-height: 29px;
+    
+
+    color: #000000
+}
+
+.services_ser_aviaru_btn {
+    padding: 0;
+    position: absolute;
+    width: 300px;
+    height: 57px;
+    bottom: 0px;
+    right: 0px;
+    background: #276897;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 28.5px;
+
+    transition: ease 500ms;
+}
+
+.services_ser_aviaru_btn_text {
+    position: relative;
+    margin-left: 18px;
+    font-weight: 500;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    
+
+    color: #FFFFFF;
+}
+
+.aviaru_img{
+    z-index: 100;
+    position: absolute;
+    width: 1200px;
+    height: 278px;
+    pointer-events: none;
+}
+
+
+
+.services_ser_aviaworld {
+    position: absolute;
+    width: 1200px;
+    height: 278px;
+
+    margin-top: 584px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(3px);
+
+
+    border-radius: 46px;
+}
+
+
+.services_ser_aviaworld_title {
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 28px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.services_ser_aviaworld_text {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+    
+    font-size: 24px;
+    line-height: 29px;
+    
+
+    color: #000000
+}
+
+.services_ser_aviaworld_btn {
+    padding: 0;
+    position: absolute;
+    width: 300px;
+    height: 57px;
+    bottom: 0px;
+    right: 0px;
+    background: #276897;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 28.5px;
+
+    transition: ease 500ms;
+}
+
+.services_ser_aviaworld_btn_text {
+    position: relative;
+    margin-left: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: 500;
+
+    color: #FFFFFF;
+}
+
+.aviaworld_img{
+    z-index: 100;
+    position: absolute;
+    width: 1200px;
+    height: 278px;
+    pointer-events: none;
+}
+
+
+
+
+
+
+.vacancies {
+
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 980px;
+    background: #C4C4C4;
+
+    background: url(img/bg_black.png);
+}
+
+
+.vacancies_bg {
+    position: absolute;
+    width: 1200px;
+    height: 618px;
+    
+    padding: 14px;
+
+    margin-top: 218px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(3px);
+
+
+    border-radius: 46px;
+}
+
+
+.vacancies_bg_1 {
+    position: relative;
+    width: 212px;
+    height: 588px;
+    margin: 14px;
+    float: left;
+    padding: 0;
+    background: #276897;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 46px;
+
+    transition: ease 500ms;
+}
+
+
+.vacancies_bg_1_img {
+    border-radius: 46px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.35);
+    width: 212px;
+    height: 480px;
+
+}
+
+.vacancies_bg_1_text {
+    position: absolute;
+
+    width: 212px;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+.vacancies_bg_2 {
+    position: relative;
+    width: 212px;
+    height: 588px;
+    margin: 14px;
+    float: left;
+    padding: 0;
+    background: #276897;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 46px;
+
+    transition: ease 500ms;
+}
+
+
+.vacancies_bg_2_img {
+    border-radius: 46px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.35);
+    width: 212px;
+    height: 480px;
+
+}
+
+
+.vacancies_bg_2_text {
+    position: absolute;
+
+    width: 212px;
+    bottom: 8%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+.vacancies_bg_3 {
+    position: relative;
+    width: 212px;
+    height: 588px;
+    margin: 14px;
+    float: left;
+    padding: 0;
+    background: #276897;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 46px;
+
+    transition: ease 500ms;
+}
+
+
+.vacancies_bg_3_img {
+    border-radius: 46px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.35);
+    width: 212px;
+    height: 480px;
+
+}
+
+
+.vacancies_bg_3_text {
+    position: absolute;
+
+    width: 212px;
+    bottom: 8%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+.vacancies_bg_4 {
+    position: relative;
+    width: 212px;
+    height: 588px;
+    margin: 14px;
+    float: left;
+    padding: 0;
+    background: #276897;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 46px;
+
+    transition: ease 500ms;
+}
+
+
+.vacancies_bg_4_img {
+    border-radius: 46px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.35);
+    width: 212px;
+    height: 480px;
+
+}
+
+
+.vacancies_bg_4_text {
+    position: absolute;
+
+    width: 212px;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+.vacancies_bg_5 {
+    position: relative;
+    width: 212px;
+    height: 588px;
+    margin: 14px;
+    float: left;
+    padding: 0;
+    background: #276897;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 46px;
+
+    transition: ease 500ms;
+}
+
+
+.vacancies_bg_5_img {
+    border-radius: 46px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.35);
+    width: 212px;
+    height: 480px;
+
+}
+
+
+
+.vacancies_bg_5_text {
+    position: absolute;
+
+    width: 212px;
+
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+
+.aboutus {
+
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 880px;
+    background: #D9D9D9;
+    background: url(img/bg_white.png);
+}
+
+
+
+.aboutus_body {
+    padding: 0;
+    position: absolute;
+    width: 1350px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.aboutus_body_1 {
+    margin: 0;
+    position: relative;
+    width: 650px;
+    height: 550px;
+    float: left;
+    margin-top: 15%;
+
+    border-radius: 46px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(3px);
+
+    font-weight: 400;
+    color: #000000;
+    font-size: 22px;
+    padding: 28px;
+}
+
+
+
+.aboutus_body_2 {
+    margin: 0;
+    position: relative;
+    width: 426px;
+    height: 610px;
+    float: right;
+    margin-top: 15%;
+
+}
+ .vid {
+    float: right;
+    height: 610px;
+    border-radius: 46px;
+ }
+
+
+
+.bottom {
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 228px;
+    background: #2C2C2C;
+}
+
+.bottom_marg{
+    padding: 0;
+    width: 1200px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    
+    
+}
+
+.bottom_number {
+    color: white;
+    margin-top: 28px;
+    float: right;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.bottom_adress {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    background-color: #276897;
+    width: 350px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+
+    transition: ease 500ms;
+}
+
+.bottom_logo{
+    margin-top: 60px;
+
+    width: 75px;
+    height: 75px;
+
+    
+}
+
+
+
+
+
+.services_ser_aviaru_btn:hover {
+
+    background-color: #3388c5;
+    box-shadow: 0px 0px 30px rgb(68, 142, 194);
+}
+
+.services_ser_aviaworld_btn:hover {
+
+    background-color: #3388c5;
+    box-shadow: 0px 0px 30px rgb(68, 142, 194);
+}
+
+.vacancies_bg_1:hover {
+    background-color: #3388c5;
+    box-shadow: 0px 0px 30px rgb(68, 142, 194);
+}
+
+.vacancies_bg_2:hover {
+    background-color: #3388c5;
+    box-shadow: 0px 0px 30px rgb(68, 142, 194);
+}
+
+.vacancies_bg_3:hover {
+    background-color: #3388c5;
+    box-shadow: 0px 0px 30px rgb(68, 142, 194);
+}
+
+.vacancies_bg_4:hover {
+    background-color: #3388c5;
+    box-shadow: 0px 0px 30px rgb(68, 142, 194);
+}
+
+.vacancies_bg_5:hover {
+    background-color: #3388c5;
+    box-shadow: 0px 0px 30px rgb(68, 142, 194);
+}
+
+.logo:hover{
+    color: #000000;
+    text-shadow: 0px 0px 8px white;
+}
+
+.nav_name:hover {
+    color: #000000;
+    text-shadow: 0px 0px 8px white;
+}
+
+.nav_ul_1:hover {
+    color: #000000;
+    text-shadow: 0px 0px 8px white;
+}
+
+.nav_ul_2:hover {
+    color: #000000;
+    text-shadow: 0px 0px 8px white;
+}
+
+.nav_ul_3:hover {
+    color: #000000;
+    text-shadow: 0px 0px 8px white;
+}
+
+.nav_ul_4:hover {
+    color: #000000;
+    text-shadow: 0px 0px 8px white;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.ser_link:link{
+    color: white;
+}
+
+.ser_link:visited{
+    color: white;
+}
+
+.vaclink:link {
+    color: white;
+}
+
+.vaclink:visited {
+    color: white;
+}
+
+.bottom_adress:hover{
+    background-color: #3388c5;
+    box-shadow: 0px 0px 30px rgb(68, 142, 194);
+}
+
+
+.b:link {
+    color: black;
+}
+
+.b:visited {
+    color: black;
+}
+
+.b1:link {
+    color: black;
+}
+
+.b1:visited {
+    color: black;
+}
+
+.b2:link {
+    color: black;
+}
+
+.b2:visited {
+    color: black;
+}
+
+.b3:link {
+    color: black;
+}
+
+.b3:visited {
+    color: black;
+}
+
+.b4:link {
+    color: black;
+}
+
+.b4:visited {
+    color: black;
+}
